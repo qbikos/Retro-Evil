@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a543205dd590b764295581a5ae2883d4, type: 3}
+  m_Name: DemoDocument
+  m_EditorClassIdentifier: 
+  UniqueId: af711554-60a8-4e8d-afeb-6b8faddca459
+  Name: Digital Log
+  Image: {fileID: 21300000, guid: 93f86aad50a60ef4f9d7d26d36bd5f01, type: 3}
+  ShowImageOnRead: 1
+  ShowPageCount: 1
+  PagesText_DEPRECATED:
+  - 'Thank you for acquiring Retro Horror Template.
+
+
+    Feel free to join the Discord
+    server to participate in the seleccion of new features.'
+  - "This is a document example. \n\nThey sometimes contain useful information like:\n<color=green>You
+    can find the spade key inside the jewel box</color>"
+  - The document will close now
+  Pages:
+  - Text: 'Thank you for acquiring Retro Horror Template.
+
+
+      Feel free to join
+      the Discord server to participate in the seleccion of new features.'
+    Image: {fileID: 0}
+    ImageCaption: 
+    ChangeColor: 0
+    ImageColor: {r: 1, g: 1, b: 1, a: 1}
+  - Text: "This is a document example. \n\nThey sometimes contain useful information
+      like:\n<color=green>You can find the spade key inside the jewel box</color>"
+    Image: {fileID: 0}
+    ImageCaption: 
+    ChangeColor: 0
+    ImageColor: {r: 1, g: 1, b: 1, a: 1}
+  - Text: 
+    Image: {fileID: 21300000, guid: e11eae54ed767974bba7c86b71112524, type: 3}
+    ImageCaption: It can also show images with a caption
+    ChangeColor: 0
+    ImageColor: {r: 1, g: 1, b: 1, a: 1}
+  - Text: The document will close now
+    Image: {fileID: 0}
+    ImageCaption: 
+    ChangeColor: 0
+    ImageColor: {r: 1, g: 1, b: 1, a: 1}
+  ShowClip: {fileID: 8300000, guid: 064693e7a6127fa448408ad9424c5081, type: 3}
+  PageClip: {fileID: 8300000, guid: c3849fa0dcaf3cf40b74686dbf1766ee, type: 3}
+  CloseClip: {fileID: 8300000, guid: 757a425d6607890488ecd0baca7d3aad, type: 3}
